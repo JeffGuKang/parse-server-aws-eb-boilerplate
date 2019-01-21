@@ -11,7 +11,7 @@
   "s3secret": "",
   "s3name": "",
   "s3region": "",
-  "dashboard-id": "YOUR_DASHBOARD_ID",
-	"dashboard-password": "YOUR_DASHBOARD_PASSWORD",
+  "dashboard-userId": "YOUR_DASHBOARD_ID",
+	"dashboard-userPassword": "YOUR_DASHBOARD_PASSWORD",
 	"dashboard-serverURL": "http://localhost:1337/parse"
 }

@@ -60,8 +60,8 @@ app.use('/', express.static(path.join(__dirname, '/public')))
     ],
     "users": [
       {
-        "user": nconf.get('dashboard-id'),
-        "pass": nconf.get('dashboard-password')
+        "user": nconf.get('dashboard-userId'),
+        "pass": nconf.get('dashboard-userPassword')
       },
     ]
   };
