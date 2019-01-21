@@ -47,7 +47,7 @@ var api = new ParseServer({
 // Serve static assets from the /public folder
 app.use('/', express.static(path.join(__dirname, '/public')))
 
-if (process.env.NODE_ENV !== 'local') {
+// if (process.env.NODE_ENV !== 'local') {
   const config = {
     "apps": [
       {
@@ -68,7 +68,7 @@ if (process.env.NODE_ENV !== 'local') {
   var dashboard = new ParseDashboard(config, {allowInsecureHTTP: true}); //  only for test
 
   app.use('/dashboard', dashboard);
-}
+// }
 
 // Serve the Parse API on the /parse URL prefix
 app.use(nconf.get('parseAPIPrefix'), api);
