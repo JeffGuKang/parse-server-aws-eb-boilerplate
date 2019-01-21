@@ -1,0 +1,29 @@
+{
+  "name": "parse-server-awseb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:local": "NODE_ENV=local node index",
+    "test": "jest",
+    "dashboard": "parse-dashboard --config parse-dashboard-config.json",
+    "dashboard:local": "parse-dashboard --config parse-dashboard-config-local.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.10.0 <11.0.0"
+  },
+  "dependencies": {
+    "@parse/s3-files-adapter": "^1.2.1",
+    "express": "^4.16.4",
+    "nconf": "^0.10.0",
+    "parse": "^2.1.0",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^3.1.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
