@@ -47,7 +47,7 @@ var api = new ParseServer({
 // Serve static assets from the /public folder
 app.use('/', express.static(path.join(__dirname, '/public')))
 
-if (process.env.NODE_ENV !== 'gg') {
+if (process.env.NODE_ENV !== 'local') {
   const config = {
     "apps": [
       {
