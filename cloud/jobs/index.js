@@ -1,3 +1,3 @@
-Parse.Cloud.define('hello', function(req, res) {
-  return 'Hi';
+Parse.Cloud.define('hello jobs', function(req, res) {
+  return 'Hi jobs';
 });
