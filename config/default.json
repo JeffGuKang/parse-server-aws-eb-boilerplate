@@ -3,7 +3,7 @@
   "localDatabaseURI": "postgres://localhost:5432/testdb",
   "cloud": "./cloud/main.js",
   "appId": "YOUR_PARSE_APP_ID",
-  "masterKey": "YOUR_MASTER_KEY",
+  "masterKey": "2398qwhg08w",
   "fileKey": "YOUR_FILE_KEY",
   "parseAPIPrefix": "/parse",
   "port": 1337,
