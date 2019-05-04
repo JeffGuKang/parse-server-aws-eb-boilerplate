@@ -1,6 +1,6 @@
 {
   "appname": "YOUR_APP_NAME",
-  "localDatabaseURI": "postgres://localhost:5432/testdb",
+  "localDatabaseURI": "postgres://tutorial@localhost:5432/tutorial",
   "cloud": "./cloud/main.js",
   "appId": "YOUR_PARSE_APP_ID",
   "masterKey": "YOUR_MASTER_KEY",

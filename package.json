@@ -1,6 +1,7 @@
 {
   "name": "parse-server-awseb",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository":"https://github.com/JeffGuKang/awseb-parse-server",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,11 +20,11 @@
     "@parse/s3-files-adapter": "^1.2.1",
     "express": "^4.16.4",
     "nconf": "^0.10.0",
-    "parse": "^2.1.0",
-    "parse-dashboard": "^1.2.0",
-    "parse-server": "^3.1.3"
+    "parse": "^2.4.0",
+    "parse-dashboard": "^1.3.0",
+    "parse-server": "^3.3.0"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.7.1"
   }
 }
