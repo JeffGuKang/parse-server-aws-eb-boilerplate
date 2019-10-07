@@ -2,10 +2,9 @@
   "name": "parse-server-awseb",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
   "scripts": {
     "dev": "NODE_ENV=local tsnd --respawn index.ts",
-    "start": "node ./dist/index",
+    "start": "tsc && node built/",
     "build": "tsc",
     "test": "jest",
     "dashboard": "parse-dashboard --config parse-dashboard-config.json",

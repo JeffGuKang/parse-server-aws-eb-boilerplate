@@ -65,3 +65,6 @@ lib/
 
 yarn.lock
 package-json.lock
+
+# Typescript build
+dist

@@ -6,7 +6,7 @@ module.exports =  {
     sourceType:  "module",  // Allows for the use of imports    
     project: 'tsconfig.json',
     tsconfigRootDir: '.',    
-    // createDefaultProgram: true,        
+    createDefaultProgram: true,      
   },
   extends:  [
     "plugin:@typescript-eslint/recommended", // uses typescript-specific linting rules

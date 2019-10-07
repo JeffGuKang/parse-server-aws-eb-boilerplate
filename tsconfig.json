@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "esnext",
     "noImplicitAny": false,
+    "isolatedModules": false,
+    "lib": ["es6"],
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "built",
     "baseUrl": ".",
     "paths": {
       "*": [
@@ -17,7 +21,10 @@
   },
   "include": [
     "src/**/*",
-    "cloud/**/*",
     "index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
