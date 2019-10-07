@@ -4,10 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsnd --respawn index.ts",
-    "start": "node index",
+    "dev": "NODE_ENV=local tsnd --respawn index.ts",
+    "start": "node ./dist/index",
     "build": "tsc",
-    "start:local": "NODE_ENV=local node index",
     "test": "jest",
     "dashboard": "parse-dashboard --config parse-dashboard-config.json",
     "dashboard:local": "parse-dashboard --config parse-dashboard-config-local.json"

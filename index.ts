@@ -22,7 +22,6 @@ import path from 'path'
 
 const app = express()
 
-console.log('env', process.env)
 // mongodb://username:password@ggg.com:27017/dbname
 let databaseURI = process.env.LOCAL_DB_URI
 if (process.env.NODE_ENV !== 'local') {

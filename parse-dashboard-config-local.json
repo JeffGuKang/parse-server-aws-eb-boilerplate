@@ -3,7 +3,7 @@
     {
       "serverURL": "http://localhost:1337/parse/",
       "appId": "YOUR_PARSE_APP_ID",
-      "masterKey": "2398qwhg08w",
+      "masterKey": "YOURMASTERKEY",
       "appName": "YOUR_APP_NAME",
       "supportedPushLocales": ["en", "kr"]
     }
