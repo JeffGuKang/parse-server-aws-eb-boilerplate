@@ -2,9 +2,11 @@
   "name": "parse-server-awseb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "dev": "tsnd --respawn index.ts",
     "start": "node index",
+    "build": "tsc",
     "start:local": "NODE_ENV=local node index",
     "test": "jest",
     "dashboard": "parse-dashboard --config parse-dashboard-config.json",
@@ -16,14 +18,26 @@
     "node": ">=8.10.0 <11.0.0"
   },
   "dependencies": {
-    "@parse/s3-files-adapter": "^1.2.1",
-    "express": "^4.16.4",
-    "nconf": "^0.10.0",
-    "parse": "^2.1.0",
-    "parse-dashboard": "^1.2.0",
-    "parse-server": "^3.1.3"
+    "@parse/s3-files-adapter": "^1.3.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "parse": "^2.7.1",
+    "parse-dashboard": "^2.0.3",
+    "parse-server": "^3.9.0"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.11",
+    "@types/parse": "^2.2.10",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
   }
 }
