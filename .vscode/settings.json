@@ -1,0 +1,16 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,	
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.suggestionActions.enabled": false,
+	"javascript.suggestionActions.enabled": false,
+	// "typescript.validate.enable": false,
+  // "javascript.validate.enable": false,
+	"eslint.validate":  [
+		"javascript",
+		"javascriptreact",		
+		{"language":  "typescript",  "autoFix":  true  },
+		{"language":  "typescriptreact",  "autoFix":  true  }
+	],	
+	"eslint.autoFixOnSave": true,
+}

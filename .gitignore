@@ -48,7 +48,7 @@ node_modules
 .idea
 
 # visual studio code
-.vscode
+# .vscode
 
 # Babel.js
 lib/
