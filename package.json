@@ -1,6 +1,7 @@
 {
   "name": "parse-server-awseb",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository":"https://github.com/JeffGuKang/awseb-parse-server",
   "description": "",
   "scripts": {
     "dev": "NODE_ENV=local tsnd --respawn index.ts",
