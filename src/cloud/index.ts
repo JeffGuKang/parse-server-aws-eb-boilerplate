@@ -1,6 +1,6 @@
 require('./functions')
-require('./triggers')
 require('./jobs')
+require('./triggers')
 
 Parse.Cloud.define('hello', () => {
   return 'Hi'

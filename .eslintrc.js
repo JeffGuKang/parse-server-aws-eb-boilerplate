@@ -6,6 +6,8 @@ module.exports =  {
     sourceType:  "module",  // Allows for the use of imports    
     project: 'tsconfig.json',
     tsconfigRootDir: '.',    
+    // Workaround for parser error with new files
+    // https://github.com/typescript-eslint/typescript-eslint/issues/864  
     createDefaultProgram: true,      
   },
   extends:  [

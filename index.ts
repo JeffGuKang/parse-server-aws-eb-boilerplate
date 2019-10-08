@@ -31,7 +31,7 @@ if (process.env.NODE_ENV !== 'local') {
 // and the location to your Parse cloud code
 const api = new ParseServer({
   databaseURI,
-  cloud: process.env.CLOUD,
+  cloud: __dirname + '/src/cloud/', // location after tsc
   appId: process.env.APP_ID,
   masterKey: process.env.MASTER_KEY,
   fileKey: process.env.FILE_KEY,

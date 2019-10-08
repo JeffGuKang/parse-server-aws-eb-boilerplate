@@ -1,3 +1,5 @@
+import path from 'path'
+
 Parse.Cloud.define('hello functions', () => {
   return 'Hi functions'
 })
@@ -10,7 +12,7 @@ Parse.Cloud.define('whoami', req => {
   return result
 })
 
-const a = Parse.Cloud.define('getItemList', async () => {
+Parse.Cloud.define('getItemList', async () => {
   const Character = Parse.Object.extend('Character') // Get class from database
   const query = new Parse.Query(Character) // Make query from class
 
@@ -21,5 +23,3 @@ const a = Parse.Cloud.define('getItemList', async () => {
     throw error
   }
 })
-
-export { a }
