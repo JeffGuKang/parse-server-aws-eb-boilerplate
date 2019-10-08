@@ -64,8 +64,4 @@ lib/
 /files
 
 yarn.lock
-
-# Typescript build
-dist
-built
-package-lock.json
+package-json.lock
