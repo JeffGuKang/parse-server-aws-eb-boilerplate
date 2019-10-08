@@ -1,3 +1,5 @@
+# Setting files
+.env
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
