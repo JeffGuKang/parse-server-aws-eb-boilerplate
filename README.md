@@ -1,3 +1,5 @@
+## AWS Settings
+https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#aws-nginx-config
 
 ## Using Parse Dashboard
 
