@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "parse": "^2.7.1",
     "parse-dashboard": "^2.0.3",
-    "parse-server": "^3.9.0"
+    "parse-server": "^4.3.0"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
